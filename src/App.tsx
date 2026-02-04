@@ -1,10 +1,7 @@
 import React from "react";
-
-const App: React.FC = () => {
+import RegisterForm from "./components/Auth/RegisterForm";
   return (
-    <div>
-      <h3>iTransition</h3>
-    </div>
+        <Route path="/register" element={<RegisterForm />} />
   );
 };
 

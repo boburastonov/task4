@@ -5,7 +5,7 @@ import { FaUnlock, FaTrash, FaUserSlash } from "react-icons/fa";
 /**
  * IMPORTANT: Toolbar component for bulk user actions
  * NOTE: Always visible, buttons enable/disable based on selection
- * NOTA BENE: Uses icons for some buttons, text for others (as per requirement)
+ * NOTE: Uses icons for some buttons, text for others (as per requirement)
  */
 
 interface ToolbarProps {
